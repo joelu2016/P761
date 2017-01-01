@@ -35,6 +35,7 @@ kAllConsts = {
   'kIgnorePowerDownPrepOnBoot'   : True,
   #'kPowerDownPrepPowerOffDelayInMs'   : 500,
   'kPowerDownPrepCausesReset'    : False,
+  'kDisableMonoMix'              : True,
 
 
 
@@ -42,7 +43,7 @@ kAllConsts = {
   'kSupportedAudioModes': AudioMode.BitVector([
     AudioMode.Left, AudioMode.Right, AudioMode.Mono,
   ]),
-  'kAudioModeDefault': AudioMode.Stereo,
+  'kAudioModeDefault': AudioMode.Mono,
 
   #Other Audio Constants
   #'kVolumeStepSize'         : byte(16),
