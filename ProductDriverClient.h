@@ -94,7 +94,7 @@ public:
     driver::AMP_FAULT.SetAsInput();
     driver::AMP_RST.SetAsOutput(true);
     driver::AMP_PWDN.SetAsOutput(false);
-    xout << "P761-010217-B";
+    xout << "P761-010317-A";
 
 
     WaitMs(200);
